@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Welcome to the Mortgage Calculator!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<form action="/calculate" method="POST" class="calculate">
+    <p>enter the values</p>
+
+    <div>
+
+        <label for="valueHomePrice">Home Price</label>
+        <input name="homePrice" id="valueHomePrice" value="0">
+    </div>
+    <div>
+        <label for="valueInterestRate">Interest Rate in %</label>
+        <input name="interestRate" id="valueInterestRate" value="0">
+    </div>
+    <div>
+        <label for="valueTax">Tax (Yearly)</label>
+        <input name="tax" id="valueTax" value="0">
+    </div>
+    <div>
+        <label for="valueLoanLength">Loan Length</label>
+        <input name="loanLength" id="valueLoanLength" value="0">
+    </div>
+    <div>
+        <label for="valueInsuranceCost">Insurance Cost</label>
+        <input name="insuranceCost" id="valueInsuranceCost" value="0.00">
+    </div>
+    <div>
+        <label for="valueDownPayment">Down Payment in %</label>
+        <input name="downPayment" id="valueDownPayment" value="0">
+    </div>
+    <div>
+        <button>calculate</button>
+    </div>
+</form>
+
+
+
+
+</body>
+</html>
